@@ -4,4 +4,30 @@ body {
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto',sans-serif;
+    padding: 48px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.hero {
+    background-color: #1f2937
+}
+
+.info,.banner {
+    background-color: white;
+}
+
+.quote {
+    background-color: #e5e7eb;
 }
