@@ -19,6 +19,15 @@ body {
 }
 
 .links {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
     font-size: 18px;
     color: #e5e7eb;
 }
