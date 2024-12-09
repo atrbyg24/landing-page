@@ -2,15 +2,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     font-family: 'Roboto',sans-serif;
-    padding: 48px;
+    padding: 0 48px;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex: 1;
 }
 
 .header {
     display: flex;
+    flex: 1;
     justify-content: space-between;
+    align-items: center;
     background-color: #1f2937;
+    padding: 48px;
+    height: 24px;
 }
 
 .logo {
@@ -37,6 +46,8 @@ li {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero {
