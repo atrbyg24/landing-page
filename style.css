@@ -4,12 +4,14 @@ body {
     justify-content: space-between;
     font-family: 'Roboto',sans-serif;
     padding: 0 48px;
+    flex: 1;
     background-color: black;
 }
 
 .container {
     display: flex;
     flex: 1;
+    height: 200px;
 }
 
 .header {
@@ -27,12 +29,10 @@ body {
     color: #f9faf8;
 }
 
-.links {
-    display: flex;
-}
-
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
 li {
