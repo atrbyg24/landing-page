@@ -59,7 +59,7 @@ h2 {
 }
 
 .card-image {
-    background-color: white;
+    background-color: #f9faf8;
     border: 2px solid #3882f6;
     border-radius: 12px;
     width: 96px;
@@ -84,7 +84,45 @@ h2 {
 }
 
 .hero {
-    background-color: #1f2937
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px;
+}
+
+.hero-left {
+    display:flex;
+    flex-direction: column;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    color: #f9faf8;
+    background-color:#3882f6;
+    border: 0;
+    border-radius: 4px; 
+    width: 96px;
+}
+
+.placeholder-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    color: #f9faf8;
+    width: 300px;
+    height: 200px;
 }
 
 .info,.banner {
@@ -92,9 +130,11 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #f9faf8;
+    padding: 0px 48px;
 }
 
 .quote {
     background-color: #e5e7eb;
+    padding: 0px 48px;
 }
